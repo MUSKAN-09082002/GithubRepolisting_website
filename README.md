@@ -1,7 +1,7 @@
 # GithubRepolisting_website
 I have created this project using HTML, CSS and Javascript, Bootstrap and Jquery.
 
-This is a website that is hosted on netlify also, that helps you to search for a specific github-user.
+This is a website that is hosted on netlify(https://muskanjain-github-repo-list.netlify.app/), that helps you to search for a specific github-user.
 The details about the user that are displayed are:
 1. Name
 2. Profile Picture
