@@ -1,0 +1,94 @@
+body {
+  margin: 50px;
+}
+.form-group {
+  padding: 10px;
+  align-items: center;
+}
+
+#myform {
+  padding: 50px;
+}
+
+#loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid plum;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  display: none;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+  position: relative;
+  margin-left: 30px;
+  height: 300px;
+  width: 100%;
+}
+
+.image {
+  object-fit: contain;
+}
+
+#imagediv {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+}
+
+#details {
+  position: relative;
+  left: 70px;
+  margin: 20px;
+  float: left;
+}
+
+#repos {
+  position: relative;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  width: 23%;
+  flex: 0 1 24%;
+  box-sizing: border-box;
+  border-color: black;
+  text-align: center;
+  margin-bottom: 2 em;
+}
+
+#load {
+  align-items: center;
+  align-self: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.title {
+  font-size: 0.5 rem;
+  color: #3498db;
+}
+
+.skills {
+  background-color: #3498db;
+  border-color: #3498db;
+  color: white;
+  align-self: center;
+}

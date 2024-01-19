@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GitHub Repositories Listing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+   
+    <link rel="stylesheet" href="style.css" />
+   
+   
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center">Github User Search Website</h1>
+     
+      <form id="myform">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="search"
+            placeholder="Enter username"
+          />
+          <br>
+          <h6> Enter number of entries per page required</h6>
+          <select class="form-control" id="perPage">
+            <option value="10" selected>10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-danger btn-block">Search</button>
+        </div>
+      </form>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <div id="loader" class="loader mt-4" style="display: none"></div>
+
+      <div class="wrapper">
+        <div id="imagediv"></div>
+     
+
+      <div id="details">
+      
+      </div>
+    </div>
+
+    <div id="cards"></div>
+    <div id ="load"></div>
+  </body>
+  
+  <script src="script.js"></script>
+</html>
