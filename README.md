@@ -18,5 +18,8 @@ Features:
 2. The loader is displayed, when the API calls are in progress. It is implemented using Jquery.
 3. Pagination is applied and one can click on LOAD MORE button to fetch other results.
 
-
+To run this code on your system:
+1.Clone this repository on your machine.
+2.Run index.html on your browser.
+3.Have a stable internet connection.
    
